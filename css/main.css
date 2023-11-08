@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EEF7FB;
+  background-image: url(../img/background-image.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  font-family: sans-serif;
+  width: 1440px;
+  height: 800px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1110px;
+}
+
+.hero__container a, .header__container ul button, .header__container ul a {
+  transition: all 0.5s;
+}
+
+.header__container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 98px;
+}
+.header__container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__container ul a {
+  text-decoration: none;
+  color: #232D22;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header__container ul a:hover {
+  color: lightgreen;
+}
+.header__container ul button {
+  margin-left: 50px;
+  padding: 11px 45px;
+  color: #232D22;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 4px;
+  background-color: #EEF7FB;
+  border: 1px solid #232D22;
+}
+.header__container ul button:hover {
+  background-color: #232D22;
+  color: #fff;
+}
+
+.hero__container a, .header__container ul a, .header__container ul button {
+  transition: all 0.5s;
+}
+
+.hero__container {
+  justify-content: left;
+}
+.hero__container h1 {
+  color: #232D22;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+  width: 500px;
+}
+.hero__container p {
+  color: rgba(35, 45, 34, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 500px;
+  margin-bottom: 50px;
+}
+.hero__container a {
+  padding: 20px 33px;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 4px;
+  background: #232D22;
+  border: 1px solid #232D22;
+  text-decoration: none;
+}
+.hero__container a:hover {
+  background-color: #EEF7FB;
+  color: #232D22;
+}/*# sourceMappingURL=main.css.map */

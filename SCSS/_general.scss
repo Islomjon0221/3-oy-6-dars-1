@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEF7FB;
+    background-image: url(../img/background-image.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-family: sans-serif;
+    width: 1440px;
+    height: 800px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1110px;
+}

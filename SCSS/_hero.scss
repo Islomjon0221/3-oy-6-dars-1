@@ -1,0 +1,45 @@
+%transitionTemplate{
+    transition: all 0.5s;
+}
+
+.hero__container {
+    justify-content: left;
+    h1 {
+        color: #232D22;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 20px;
+        width: 500px;
+    }
+
+    p {
+        color: rgba(35, 45, 34, 0.70);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 500px;
+        margin-bottom: 50px;
+    }
+
+    a {
+        padding: 20px 33px;
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 4px;
+        background: #232D22;
+        border: 1px solid #232D22;
+        text-decoration: none;
+        @extend %transitionTemplate;
+        &:hover {
+            background-color: #EEF7FB;
+            color: #232D22;
+        }
+    }
+}
